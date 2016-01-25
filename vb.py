@@ -1,8 +1,7 @@
-# Exploit Title             : [Exploit] vBulletin 5.1.x - PreAuth Remote Code Execution
-
-# Requirements              : Python 3.4.x , Requests
+# Requirements              : Python 3.x , Requests
 # Tested on                 : Ubuntu 15.04
 # CVE                       : CVE-2015-7808
+#VB 5.1.x exploit
 
 import  requests, re, sys
 from    urllib.parse    import urlparse
